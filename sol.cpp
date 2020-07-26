@@ -17,7 +17,9 @@ void test_case() {
 			}
 			if(cnt == p) {
 				ok = true;
+				break;
 			}
+			
 		}
 	}
 	if(ok) cout << "YES";
